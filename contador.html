@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            max-width: 400px;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contador de Caracteres</h1>
+    <input type="text" id="inputTexto" placeholder="Escribe tu mensaje aquí" oninput="contarCaracteres()">
+    <p id="contador">Caracteres: 0</p>
+    <script src="cont.js"></script>
+</body>
+</html>
